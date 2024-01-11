@@ -1,0 +1,17 @@
+params:
+  clustering:
+    method: centroid
+    min_cluster_size: 15
+    threshold: 0.7153814381597874
+  segmentation:
+    min_duration_off: 0.5817029604921046
+    threshold: 0.4442333667381752
+pipeline:
+  name: pyannote.audio.pipelines.SpeakerDiarization
+  params:
+    clustering: AgglomerativeClustering
+    embedding: /home/aibox/Downloads/vad_gpu_worker_sony-main/external_apps/ai_unit/models/pipeline/speechbrain
+    embedding_batch_size: 32
+    embedding_exclude_overlap: true
+    segmentation: /home/aibox/Downloads/vad_gpu_worker_sony-main/external_apps/ai_unit/models/segmentation/epoch=330-step=27804.ckpt
+    segmentation_batch_size: 32

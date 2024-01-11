@@ -1,0 +1,6 @@
+params:
+  onset : 0.6
+  offset: 0.4
+  stitch_threshold : 0.39
+  min_duration_on: 0.0
+  min_duration_off: 0.0

@@ -1,0 +1,17 @@
+pydub
+asteroid-filterbanks == 0.4.0
+backports.cached_property
+einops == 0.3.2
+hmmlearn == 0.2.8
+huggingface_hub == 0.8.1
+networkx == 2.8.8
+omegaconf == 2.3.0
+semver == 2.13.0
+singledispatchmethod
+soundfile == 0.10.3.post1
+speechbrain == 0.5.13
+torch == 1.12.1
+torch_audiomentations == 0.11.0
+torchaudio == 0.12.1
+torchmetrics == 0.9.3
+typing_extensions
